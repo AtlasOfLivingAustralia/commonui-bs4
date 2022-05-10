@@ -1,6 +1,6 @@
 /* header */
 @media (min-width: 992px) {
-    
+
     #wrapper-navbar {
         width: 100%;
         z-index: 1000;
@@ -30,33 +30,33 @@
 }
 
 @media (max-width: 991.98px) {
-    
+
     .navbar {
         background-color: rgba(0, 0, 0, 0.6);
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
     }
-    
+
     .navbar > .header-logo-menu {
         flex-wrap: nowrap;
         display: block;
     }
-    
+
     .navbar > .header-logo-menu .navbar-brand {
         display: flex;
         align-items: center;
         margin-right: 10px;
         height: 35px;
     }
-    
+
     .navbar > .header-logo-menu .navbar-collapse {
         border-top: none;
         box-shadow: none;
     }
-    
+
     .navbar > .header-logo-menu #navbarNavDropdown {
         border-right: none;
     }
-    
+
     .navbar > .header-logo-menu .main-nav-wrapper {
         display: block;
     }
@@ -92,7 +92,7 @@
 }
 
 @media (max-width: 991.98px) {
-    
+
     .navbar .navbar-nav .nav-link:before {
         content: none;
     }
@@ -293,9 +293,7 @@
 
 
 #navbarNavDropdown {
-    margin-right: 20px;
-    padding-right: 20px;
-    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: none;
 }
 
 
@@ -314,7 +312,7 @@
 }
 
 @media (max-width: 991.98px) {
-    
+
     .search-trigger svg path, .account-mobile svg path, .search-submit svg path {
         fill: #fff !important;
     }
@@ -392,20 +390,20 @@
 }
 
 @media (max-width: 991.98px) {
-    
+
     .site {
         position: relative;
         right: 0;
         width: 100%;
         transition: right 400ms ease;
     }
-    
+
     .site.offcanvas-open {
         right: 300px;
         overflow: visible;
         position: fixed;
     }
-    
+
     .top-bar {
         position: fixed;
         z-index: 10001;
@@ -419,16 +417,16 @@
         visibility: visible;
         transition: right 400ms ease;
     }
-    
+
     .top-bar .btn {
         border: none;
         flex: 1;
     }
-    
+
     .offcanvas-open .top-bar {
         right: 0;
     }
-    
+
     .offcanvas-collapse {
         position: fixed;
         z-index: 10000;
@@ -448,23 +446,23 @@
         display: block !important;
         margin: 0 !important;
     }
-    
+
     .offcanvas-open .offcanvas-collapse {
         right: 0;
         visibility: visible;
     }
-    
+
     .offcanvas-collapse .navbar-nav .nav-link:before {
         display: none !important;
     }
-    
+
     .offcanvas-collapse .navbar-nav .dropdown-menu {
         margin: 0 0 10px;
         border: none;
         color: #fff !important;
         background-color: #343a40 !important;
     }
-    
+
     .offcanvas-collapse .navbar-nav .dropdown-item {
         padding: 0.5rem 1rem;
         color: #fff !important;
@@ -679,12 +677,12 @@ footer {
 }
 
 @media (max-width: 991.98px) {
-    
+
     .footer-top .logo-column {
         text-align: center;
         padding-bottom: 30px;
     }
-    
+
     .footer-top .logo-column .account {
         justify-content: center;
     }
@@ -746,21 +744,21 @@ footer {
 }
 
 @media (max-width: 991.98px) {
-    
+
     .footer-menu .menu.menu-2-col .sub-menu li {
         flex-basis: 100%;
     }
 }
 
 @media (max-width: 767.98px) {
-    
+
     .footer-menu .menu.menu-2-col .sub-menu li {
         flex-basis: 50%;
     }
 }
 
 @media (max-width: 575.98px) {
-    
+
     .footer-menu .menu.menu-2-col .sub-menu li {
         flex-basis: 100%;
     }
@@ -781,7 +779,7 @@ footer {
 }
 
 @media (max-width: 767.98px) {
-    
+
     .site-footer .content-column:not(:last-child) {
         padding-bottom: 30px;
     }
@@ -833,14 +831,14 @@ footer {
 }
 
 @media (max-width: 991.98px) {
-    
+
     .footer-copyright .menu {
         margin-top: 15px;
     }
 }
 
 @media (max-width: 575.98px) {
-    
+
     .footer-copyright .menu li:not(:last-child) {
         margin-right: 20px;
     }
@@ -865,11 +863,11 @@ footer {
 }
 
 @media (max-width: 767.98px) {
-    
+
     .footer-top-bar {
         text-align: center;
     }
-    
+
     .footer-top-bar .btn {
         margin: 20px 0 0;
     }
@@ -881,7 +879,7 @@ footer {
 }
 
 @media (max-width: 767.98px) {
-    
+
     .footer-subscribe .gform_wrapper {
         margin: 20px 0 0;
     }
